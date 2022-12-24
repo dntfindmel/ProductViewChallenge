@@ -11,11 +11,11 @@
 body {
     Font-size: 14px;
     background: var(--cream);
+    margin: 0 auto;
 }
 
 div {
-    width: 25%;
-    height: 540px;
+    width: 50%;
 }
 
 .perfume__container {
@@ -31,7 +31,7 @@ div {
 .perfume__card {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    width: 800px;
 }
 
 .perfume__title {
@@ -72,7 +72,7 @@ div {
     font-family: var(--first-font);
     color: var(--dark-blue);
     font-size: 24px;
-    margin: 0.5em 0.5em 0 0;
+    margin: 0.5em 0.5em 1em 0;
     text-align: center;
     text-decoration: line-through;
     
@@ -81,7 +81,7 @@ div {
 .perfume__buy {
     background-color: var(--dark-cyan);
     width: 200px;
-    margin-left: 2em;
+    margin: 0 2em;
     padding: 2em 4em;
     border-radius: 20px;
 }
@@ -101,9 +101,9 @@ div {
 
 
 .perfume__image {
-    width: 358px;
+    width: 50%;
+    margin-left: 25em;
     margin-top: 5em;
-    margin-right: 3em;
     border-radius: 20px 0 0 20px;
 }
 
@@ -111,6 +111,17 @@ div {
     display: flex;
     text-align: end;
     margin-top: 8em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.attibution__link {
+    text-decoration: none;
+    padding-left: 0.4em;
+    color: black;
 }
 
 
