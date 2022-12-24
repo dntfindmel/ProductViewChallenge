@@ -1,0 +1,116 @@
+:root {
+    --first-font: 'Montserrat';
+    --second-font: 'Caveat';
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    Font-size: 14px;
+    background: var(--cream);
+}
+
+div {
+    width: 25%;
+    height: 540px;
+}
+
+.perfume__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 5em;
+    background-color: var(--white);
+    border-radius: 0 20px 20px 0;
+}
+
+.perfume__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.perfume__title {
+    font-family: var(--first-font);
+    font-weight: 500;
+    margin-right: 14em;
+    margin-top: 1em;
+    margin-left: 3em;
+    color: var(--dark-blue);
+    font-size: 14px;
+}
+.perfume__subtitle {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 34px;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+.perfume__text {
+    font-family: var(--first-font);
+    font-size: 18px;
+    margin: 0 3em 0 2.2em;
+    color: var(--dark-blue);
+}
+
+.perfume__price {
+    color: var(--dark-cyan);
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 0.5em;
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+.perfume__price--dois {
+    font-family: var(--first-font);
+    color: var(--dark-blue);
+    font-size: 24px;
+    margin: 0.5em 0.5em 0 0;
+    text-align: center;
+    text-decoration: line-through;
+    
+}
+
+.perfume__buy {
+    background-color: var(--dark-cyan);
+    width: 200px;
+    margin-left: 2em;
+    padding: 2em 4em;
+    border-radius: 20px;
+}
+
+.perfume__cart {
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--first-font);
+    font-weight: 700;
+}
+
+.perfume__cart::before {
+    content: url("../images/icon-cart.svg");
+    margin-right: 1em;
+    margin-left: 3em;
+}
+
+
+.perfume__image {
+    width: 358px;
+    margin-top: 5em;
+    margin-right: 3em;
+    border-radius: 20px 0 0 20px;
+}
+
+.attribution {
+    display: flex;
+    text-align: end;
+    margin-top: 8em;
+}
+
+
